@@ -264,3 +264,64 @@ main{
     border: 2px solid white;
     margin-top: 3.5%;
 }
+
+/* SERVICES  */
+
+.services {
+    width: 100%;
+    height: 115.2vh;
+    background-image:url(../images/ewr-min.jpg);
+    display: flex;
+    
+}
+
+.services .circle {
+    width: 37%;
+    height: 74.5vh;
+    background-color: #476160;
+    opacity: 0.45;
+    margin-left: 18%;
+    margin-top: 8%;
+    border-radius: 50%;
+}
+
+.services .container {
+    width: 45%;
+    height: 84vh;
+    margin-top: 5.7%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 3%;
+    transform: translate(-330px);
+}
+
+.container .blocks {
+    background-color: white;
+    border-radius: 7%;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.35);
+    text-align: center;
+}
+
+.blocks .icons {
+    width: 36%;
+    height: 11vh;
+    margin-top: 12%;
+    margin-left: 32%;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.blocks .icons i {
+    font-size: 2rem;
+    margin-top: 33%;
+    color: #476160;
+}
+
+.blocks h4 {
+    margin-top: 9%;
+    letter-spacing: 1.9px;
+    color: #476160;
+    font-family: var(--tertiary-font);
+    font-size: 1.15rem;
+}
+
