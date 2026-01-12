@@ -12,9 +12,9 @@
     --primary-color: #f67b6f;
     --secondary-color: #d3e1e0;
     --tertiary-color: #476160;
-    --primary-font: "Open Sans", sans-serif;
-    --secondary-font:"Playfair Display", serif;
-    --tertiary-font:"Montserrat", sans-serif;
+    --open-sans-font-: "Open Sans", sans-serif;
+    --playfair-font:"Playfair Display", serif;
+    --montserrat-font:"Montserrat", sans-serif;
 }
 
 /* navbar  */
@@ -91,7 +91,7 @@ main{
     padding: 1.3% 3.5%;
     border-radius: 15px;
     font-size: 1rem;
-    font-family: var(--primary-font);
+    font-family: var(--open-sans-font-);
     letter-spacing: 1px;
     background-color: var(--primary-color);
     color: white;
@@ -121,7 +121,7 @@ main{
     padding-top: 4.5%;
     font-size: 3rem;
     text-align: center;
-    font-family:var(--secondary-font) ;
+    font-family:var(--playfair-font) ;
     color: white;
     letter-spacing: 1px;
 }
@@ -133,7 +133,7 @@ main{
 }
 
 .latest-news button {
-    font-family: var(--tertiary-font);
+    font-family: var(--montserrat-font);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 400;
@@ -176,7 +176,7 @@ main{
 .post-container .post h3 {
     margin-left: 5%;
     margin-top: 2%;
-    font-family: var(--tertiary-font);
+    font-family: var(--montserrat-font);
     letter-spacing: 1.5px;
     font-size: 1.15rem;
 }
@@ -184,7 +184,7 @@ main{
 .post-container .post h5 {
     margin-left: 5%;
     margin-top: 5%;
-    font-family: var(--primary-font);
+    font-family: var(--open-sans-font-);
     font-size: 0.8rem;
     color: #b3b3b3;
     font-weight: lighter;
@@ -240,20 +240,20 @@ main{
 
 .para h1{
     font-size: 3rem;
-    font-family:var(--secondary-font);
+    font-family:var(--playfair-font);
     letter-spacing: 1px;
 }
 
 .para p {
     margin-top: 3.5%;
     font-size: 1.13rem ;
-    font-family: var(--primary-font);
+    font-family: var(--open-sans-font-);
     line-height:2 ;
     font-weight:400;
 }
 
 .para button {
-    font-family: var(--primary-font);
+    font-family: var(--open-sans-font-);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 400;
@@ -321,7 +321,97 @@ main{
     margin-top: 9%;
     letter-spacing: 1.9px;
     color: #476160;
-    font-family: var(--tertiary-font);
+    font-family: var(--montserrat-font);
     font-size: 1.15rem;
 }
+
+/* do fun  */
+
+.do-fun {
+    width: 100%;
+    height: 141.4vh;
+    display: flex;
+}
+
+.do-fun .box1 {
+    width: 54.6%;
+    height: 63.8vh;
+    background-color: var(--primary-color);
+}
+
+.do-fun .box1 .image {
+    background-image: url(../images/rggr-min.jpg);
+    width: 63%;
+    height: 70.2vh;
+    border-radius: 50%;
+    transform:translate(483px , 119px) ;
+}
+
+.do-fun .box1 .para1 {
+    width: 70%;
+    height: 40vh;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: var(--open-sans-font-);
+    transform: translate(337px, 235px);
+}
+
+.do-fun .box2 {
+    width: 45.4%;
+    height: 47.5vh;
+    background-color: var(--secondary-color);
+    margin-top: 10.8%;
+}
+
+.do-fun .box2 .para2 {
+    width: 64.6%;
+    height: 57.9vh;
+    transform: translate(-98.2px ,306.5px);
+    background-color:#476160;
+    border-radius: 10%;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+.do-fun .box2 .para2 h1 {
+    padding-top: 15.3%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 1.15px;
+    font-family: var(--playfair-font);
+}
+
+.do-fun .box2 .para2 p{
+    margin: 18px 0 0;
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 400;
+    font-family: var(--open-sans-font-);
+}
+
+.do-fun .box2 .para2 h5 {
+    margin: 20px 31px 0;
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 400;
+    font-family: var(--open-sans-font-);
+}
+
+.do-fun .box2 .para2 button {
+    margin-top: 4%;
+    padding: 2.3% 6%;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: var(--open-sans-font-);
+    letter-spacing: 1px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+
+
 
